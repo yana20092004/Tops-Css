@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#one{
+    background-color: blueviolet;
+}
+.class-div{
+    background-color: aqua;
+}
+p,div,h1{
+    background-color: aquamarine;
+}

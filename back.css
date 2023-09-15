@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body div {
+    height: 100px;
+  }
+  
+ .BGC{
+  height: 100vh;
+    display: flex;
+  }
+  
+  .BGC > div,
+  .img > div {
+    flex: 1;
+    font-size: 5rem;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: end;
+    height: 100%;
+    object-fit: contain;
+    transition: all .5s ease;
+  }
+  
+  .BGC div:hover,
+  .img div:hover {
+    flex: 1.5;
+     
+  }
+  
+  .BGC div:nth-child(1) {
+    background: url(husky.jpeg.jpg) fixed no-repeat;
+    background-size: contain;
+  }
+  .BGC div:nth-child(2) {
+    background: url(chow.jpeg.jpg) fixed no-repeat;
+    background-position: 20%;
+    background-size: contain;
+
+  }
+  .BGC div:nth-child(3) {
+    background: url(lab.jpeg.jpg) fixed no-repeat;
+    background-position: 49%;
+    background-size: contain;
+
+  }
+  .BGC div:nth-child(4) {
+    background: url(gs.jpeg.jpg) fixed no-repeat;
+    background-position: 80%;
+    background-size: contain;
+
+  }
+  .BGC div:nth-child(5) {
+    background: url(pom.jpeg.jpg) fixed no-repeat;
+    background-position: 100%;
+    background-size: contain;
+
+  }
+  
+  .content {
+    background-color: gray;
+    place-content: center;
+    color: red;
+  }
+  
+  .content h2 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 5%;
+  }
+  
+ 
